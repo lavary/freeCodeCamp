@@ -16,7 +16,7 @@ Or when you copy, edit, or delete a file, the file system handles it under the h
 
 Whenever you download a file or access a web page over the Internet, a file system is involved too. 
 
-For instance, if you access a page on [https://www.freecodecamp.org/]freeCodeCamp), your browser sends an [HTTP](https://www.decodingweb.dev/books/decoding-web-development/http) request to freeCodeCamp's server to fetch the page; If the requested resource is a file, it's fetched from a file system.
+For instance, if you access a page on [freeCodeCamp](https://www.freecodecamp.org/), your browser sends an [HTTP](https://www.decodingweb.dev/books/decoding-web-development/http) request to freeCodeCamp's server to fetch the page; If the requested resource is a file, it's fetched from a file system.
 
 When people talk about file systems, they might refer to different aspects of a file system depending on the context - that's where things start to seem knotty.
 
@@ -170,7 +170,7 @@ Once the system is powered on, the BIOS firmware starts and loads the boot loade
 
 Having the boot loader and the partition table in a predefined location like MBR enables BIOS to boot up the system without having to deal with any file.
 
-If you are curious about how the CPU executes the instructions residing in the memory, you can read this beginner-friendly and fun [https://www.decodingweb.dev/books/processing-fundamentals/how-cpu-works](guide on how CPU works).
+If you are curious about how the CPU executes the instructions residing in the memory, you can read this beginner-friendly and fun [guide on how CPU works](https://www.decodingweb.dev/books/processing-fundamentals/how-cpu-works).
 
 The boot loader code in the MBR takes between 434 bytes to 446 bytes of the MBR space (out of 512b). Additionally, 64 bytes are allocated to the partition table, which can contain information about a maximum of four partitions.
 
@@ -351,7 +351,7 @@ NTFS has been the default file system of the Window NT family (2000, XP, Vista, 
 
 NTFS isn’t suitable for non-Windows environments, though 🤷🏻.
 
-For instance, you can  **only read**  the content of an NTFS-formatted storage device (like flash memory) on a Mac OS, but you won’t be able to write anything to it - unless you [https://www.howtogeek.com/236055/how-to-write-to-ntfs-drives-on-a-mac/](install an NTFS driver with write support).
+For instance, you can  **only read**  the content of an NTFS-formatted storage device (like flash memory) on a Mac OS, but you won’t be able to write anything to it - unless you [install an NTFS driver with write support](https://www.howtogeek.com/236055/how-to-write-to-ntfs-drives-on-a-mac/).
 
 Or you can just use the **exFat** file system. 
 
